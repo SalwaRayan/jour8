@@ -1,8 +1,8 @@
 var args = process.argv.slice(2)
 
 function calculate(num1, num2, operation){
-  num1 = args[0]
-  num2 = args[1]
+  num1 = Number(args[0])
+  num2 = Number(args[1])
   operation = args[2]
   var result
   if (operation === "+"){
